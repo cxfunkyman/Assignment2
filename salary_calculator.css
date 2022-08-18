@@ -1,0 +1,149 @@
+#container1 {
+  width: 325px;
+  border: 2px solid; 
+  margin: 0 auto;
+}
+#radio1{
+  margin-left: 20px;
+}
+#radio2{
+  margin-left: 47px;
+  margin-right: 5px;
+}
+#radio3{
+  margin-left: 20px;
+}
+#radio4{
+  margin-left: 11px;
+  margin-right: 5px;
+}
+#hours{
+  width: 67px;
+  background-color: orange;
+}
+#salary{
+  width: 75px;
+  background-color: rgb(112, 186, 196);
+}
+#hrs{
+  margin-top: 1%;
+  margin-left: 10px;
+}
+#btn1{
+  margin-top: 1%;
+  margin-left: 78px;
+}
+#btn2{
+  margin-top: 3%;
+  margin-left: 128px;
+}
+#sal{
+  margin-top: 5%;
+  margin-bottom: 4.5%;
+  margin-left: 62px;
+}
+header {      
+  background-image: url(calnumb.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 110%;
+  height: 100px;  
+  width: 94%;
+  margin-left: 2%;
+  margin-right: 2%;  
+}
+h1 {
+  margin: 0 auto;
+  color: #faf9f9; 
+  text-align: center; 
+  text-shadow: 1px 1px 4px black;
+  text-shadow: 2px 2px 5px;
+  text-shadow: 3px 3px 6px Red;  
+}
+body{
+  background-color: rgb(109, 177, 182);
+}
+p{
+  text-align: center;
+}
+table {
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+footer{
+  text-align: center;
+}
+table, th, td {  
+  border: 1px solid black;
+  border-collapse: collapse; 
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  margin-bottom: 1%;
+  text-align:center;
+}
+a{
+  text-decoration: none;
+}
+.navlink{
+  text-align: center;  
+  font-size: 1.5em;
+}
+.radios{
+  margin-top: 3%;
+}
+.inmain{
+  margin: 0 auto;
+}
+.maincontain{
+  width: 94%;  
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: white;
+}
+.margin1 {
+  width: 200px;
+  background-color:rgb(241, 212, 116);
+}
+.margin2 {
+  width: 129px;
+  background-color:rgb(241, 212, 116);
+}
+  /* Extra small devices (phones, 499px and down) */
+  @media only screen and (max-width: 499px){
+    #container1 {
+      width: 95%;
+      margin-top:0%;      
+      font-size: 85%;
+      text-align: left;
+    }
+    .radios{
+      margin-top: 1%;
+      text-align: left;
+    }
+    table{
+      width: 98%;
+      font-size:90%;
+    }
+ }
+  /* Small devices (portrait tablets and large phones, 500px and up) */
+  @media only screen and (min-width: 500px) and (max-width: 767px) {
+    .inmain{
+      width: 330px;
+    }
+ }
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  }
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1232px) {
+  
+  }
+  /* Extra large devices (large laptops and desktops, 1201px and up) */
+  @media only screen and (min-width: 1233px) {
+
+  } 
+  
+  

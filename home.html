@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Salary Calculator</title>
+    <link rel="stylesheet" href="salary_calculator.css">
+  </head>
+  <body>
+    <header> <div class = "navhead">
+      <h1>Salary Calculator</h1> 
+  </div></header>
+  <main class="maincontain">
+    <br>
+    <div class="inmain">
+    <form id="container1">
+      <div class="radios">        
+        <input type="radio" id="radio1" name="Job" value="Accountant">Accountant 
+        <input type="radio" id="radio2" name="Job" value="Software Engineer">Software Engineer     
+        <input type="radio" id="radio3" name="Job" value="Project Manager"> Project Manager 
+        <input type="radio" id="radio4" name="Job" value="Receptionist"> Receptionist      
+      </div>
+        <br>
+        
+<div id="hrs">
+        Number of working hours in a year: <input id="hours" type="text" name="Hours" required><br><br>
+</div>
+<div id="btn1">
+        <button id="button" type="button" name="compute" onclick="calculate()">Compute Annual Salary</button>        
+</div>
+<div id="btn2">
+  <button id="button" type="reset" name="reset">Reset</button>
+</div>
+<div id="sal">
+        Annual Salary: <input id="salary" type="text" name="Salary" >
+</div>   
+     </form>
+<div>
+  <br>
+  <table>
+    <tr>
+      <th class="margin1">Position</th>
+      <th class="margin2">Hourly Rate</th>
+  </tr>
+  <tr>
+      <td>Accountant</td>
+      <td>30</td>
+  </tr>
+  <tr>
+      <td>Project Manager</td>
+      <td>50</td>
+  </tr>
+  <tr>
+      <td>Software Engineer</td>
+      <td>35</td>
+  </tr>
+  <tr>
+      <td>Receptionist</td>
+      <td>20</td>
+  </tr>
+  </table>
+  <p>For a complete Salary Calculator follow this link:</p>
+  <div class="navlink">
+    <a href="https://hellosafe.ca/en/tools/hourly-to-annual-calculator" target="_blank">Complete Salary Calculator</a>
+</div>
+</div>
+<br>
+<footer>
+  <em>Copyright &copy; 2020 Salary Calculator</em><br>
+  <nav class = "nav2">
+      <a href = "mailto:salary@calculator.com">salary@calculator.com</a><br><br>
+  </nav>
+</footer>
+</div>
+</main>
+    <script src="calculator.js"></script>
+  </body>
+</html>
